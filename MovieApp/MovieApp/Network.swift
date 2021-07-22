@@ -12,7 +12,7 @@ class Network: ObservableObject {
     @Published var showNetworkError = false
     @Published var confirmationMessage = ""
     
-    private let apiKey = "8fd4ef3265d93db37099c1422dc5f6d9"
+    private let apiKey = ""
     private let apiUrlBase = "https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key="
     
     init() {
